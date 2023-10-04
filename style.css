@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;    margin: 0;
+} /* This will merge the navigation bars into the page borders */
+
+body {
+    font-family: 'Merriweather', sans-serif;
+    background-image: linear-gradient(#6D091D,#2f332d)  ;
+    color: #87ceeb;
+    text-align: center;
+    justify-content: center;
+} /*The code used here makes sure that all text and code are allign to the centre of the page*/
+
+/*Top nav section */
+.topnav img{
+    float:left;
+    height:120px;
+}
+
+.topnav {
+    background-color: skyblue;
+    height: 120px;
+}
+
+.toptext1{
+    float:right;
+    padding:1%;
+}
+
+.toptext2{
+    float:right;
+    padding:1%;
+}
+.topnav a {
+    color:#1b1e18;
+    font-size: 40px;
+    padding: 2%;
+}
+
+.topnav a:hover{
+    color:#fffdfa;
+}
+
+/*Top nav section end*/
+
+.mainimg img{
+    height: 400px;
+    width: 600px;
+}
+.image-row {
+    display: flex;
+    justify-content: center;
+  }
+
+.image-row img {
+    height: 100%;
+    width: 100%;
+    padding: 0.3%;
+} /* Images and gaps are in percentage so when page size changes, images resize accordingly */
+
+h1{
+    font-size:30px;
+}
+
+.box{
+    font-size: 10px;
+}
+
+p1{
+    font-size:18px;    
+}
+
+p1 a{
+    color:crimson;
+}
+p1 a:hover{color:#ffffff
+}
+
+p2 a{
+    color:#fffdfa;
+}
+
+p2 a:hover{
+    color:skyblue;
+}
+
+/*Top nav section */
+.bottomnav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1b1e18;
+    padding: 20px;
+}
+
+.bottomnav a{ color: #c4beb5;
+}
+.bottomnav a:hover{
+    color:#fffdfa;
+}
